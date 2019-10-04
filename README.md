@@ -4,9 +4,8 @@
 
 1. terraform v0.12.9
 2. `terraform init`
-3. ~/.aws/credentials
+3. `~/.aws/credentials`:
 
-    # ~/.aws/credentials
     [default]
     aws_access_key_id = YOUR_ACCESS_KEY
     aws_secret_access_key = YOUR_SECRET_ACCESS_KEY
@@ -21,7 +20,6 @@
 2. Push image `docker image push aishek/rails_aws_beanstalk:1.0.11`
 3. create `Dockerrun.aws.json`:
 
-    # Dockerrun.aws.json
     {
       "AWSEBDockerrunVersion": "1",
       "Image": {
